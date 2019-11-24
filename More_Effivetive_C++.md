@@ -1,13 +1,11 @@
 
-## Welcome to GitHub Pages
+## More Effective C++ 学习笔记
 
-You can use the [editor on GitHub](https://github.com/viperinvoker/study/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### 条款30: Proxy classes(替身类、代理类)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+C++中没有办法直接new一个二维数组，比如
+`int *data = new int[1][1]  //错误！`
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
